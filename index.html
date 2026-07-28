@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ALCAAMFAP Elétrica - Infraestrutura elétrica residencial, comercial e industrial em Fortaleza/CE. Serviços de instalações, iluminação, redes estruturadas e CFTV.">
+  <meta name="keywords" content="eletricista, instalações elétricas, infraestrutura elétrica, iluminação, rede estruturada, CFTV, Fortaleza, ALCAAMFAP">
+  <meta name="author" content="Adálio Nunes de Matos Filho">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0A4DA2">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alcaamfap-eletrica.com.br/">
+  <meta property="og:title" content="ALCAAMFAP Elétrica | Infraestrutura Elétrica em Fortaleza">
+  <meta property="og:description" content="Especialista em infraestrutura elétrica residencial, comercial e industrial. Qualidade, segurança e excelência profissional.">
+  <meta property="og:image" content="https://alcaamfap-eletrica.com.br/images/hero-bg.jpg">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ALCAAMFAP Elétrica | Infraestrutura Elétrica em Fortaleza">
+  <meta name="twitter:description" content="Especialista em infraestrutura elétrica residencial, comercial e industrial.">
+  <meta name="twitter:image" content="https://alcaamfap-eletrica.com.br/images/hero-bg.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="apple-touch-icon" href="images/logo.svg">
+
+  <title>ALCAAMFAP Elétrica | Infraestrutura Elétrica em Fortaleza</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- JSON-LD Dados Estruturados -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ALCAAMFAP Elétrica - Suporte Especializado",
+    "description": "Especialista em infraestrutura elétrica residencial, comercial e industrial em Fortaleza/CE.",
+    "url": "https://alcaamfap-eletrica.com.br/",
+    "logo": "https://alcaamfap-eletrica.com.br/images/logo.svg",
+    "image": "https://alcaamfap-eletrica.com.br/images/hero-bg.jpg",
+    "telephone": "+5585996559851",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fortaleza",
+      "addressRegion": "CE",
+      "addressCountry": "BR"
+    },
+    "areaServed": "Fortaleza e Região Metropolitana, Ceará",
+    "priceRange": "$$",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Adálio Nunes de Matos Filho"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader" class="preloader" role="status" aria-label="Carregando site">
+    <img src="images/logo.svg" alt="ALCAAMFAP Elétrica" class="preloader-logo">
+    <div class="preloader-bar">
+      <div class="preloader-progress"></div>
+    </div>
+  </div>
+
+  <!-- Barra de progresso -->
+  <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header id="header" class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="ALCAAMFAP Elétrica - Página inicial">
+        <img src="images/logo.svg" alt="Logo ALCAAMFAP Elétrica">
+        <div class="logo-text">ALCAAMFAP<span>Elétrica • Suporte Especializado</span></div>
+      </a>
+
+      <nav id="nav" class="nav" aria-label="Menu principal">
+        <a href="#inicio" class="nav-link active">Início</a>
+        <a href="sobre.html" class="nav-link">Sobre</a>
+        <a href="servicos.html" class="nav-link">Serviços</a>
+        <a href="portfolio.html" class="nav-link">Portfólio</a>
+        <a href="#diferenciais" class="nav-link">Diferenciais</a>
+        <a href="#depoimentos" class="nav-link">Depoimentos</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="contato.html" class="nav-link">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Alternar modo escuro">
+          <i class="fas fa-moon"></i>
+        </button>
+        <a href="https://wa.me/5585996559851" target="_blank" class="btn btn-primary btn-sm">Solicitar Orçamento</a>
+        <button id="btn-menu" class="btn-menu" aria-label="Abrir menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+      <img src="images/hero-bg.jpg" alt="Infraestrutura elétrica moderna" class="hero-bg" loading="lazy">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text fade-in">
+            <h1>Infraestrutura Elétrica com <span>Qualidade</span>, <span>Segurança</span> e <span>Excelência</span> Profissional</h1>
+            <p>Soluções completas em instalações elétricas, iluminação, redes estruturadas e infraestrutura para residências, empresas e indústrias.</p>
+            <div class="hero-buttons">
+              <a href="https://wa.me/5585996559851" target="_blank" class="btn btn-primary btn-shine"><i class="fab fa-whatsapp"></i> Solicitar Orçamento</a>
+              <a href="https://wa.me/5585996559851" target="_blank" class="btn btn-outline"><i class="fab fa-whatsapp"></i> Falar no WhatsApp</a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat-card">
+                <span class="stat-number"><span class="counter" data-target="20" data-prefix="+" data-suffix="">0</span></span>
+                <span class="stat-label">Anos de experiência</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number"><span class="counter" data-target="350" data-prefix="+" data-suffix="">0</span></span>
+                <span class="stat-label">Projetos Residenciais</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number"><span class="counter" data-target="180" data-prefix="+" data-suffix="">0</span></span>
+                <span class="stat-label">Projetos Comerciais</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number"><span class="counter" data-target="95" data-prefix="+" data-suffix="">0</span></span>
+                <span class="stat-label">Instalações Industriais</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image fade-in stagger-2">
+            <div class="hero-image-wrapper">
+              <img src="images/adalio-profile.jpg" alt="Adálio Nunes de Matos Filho - Especialista em infraestrutura elétrica" loading="lazy">
+            </div>
+            <div class="hero-badge">
+              <strong>Adálio Nunes</strong>
+              <span>Especialista Elétrico</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image fade-in">
+            <div class="about-image-wrapper">
+              <img src="images/about-adalio.jpg" alt="Adálio Nunes de Matos Filho em ambiente profissional" loading="lazy">
+            </div>
+          </div>
+          <div class="about-content fade-in stagger-2">
+            <span class="section-tag">Sobre</span>
+            <h2>Sobre Adálio Nunes de Matos Filho</h2>
+            <p>Adálio Nunes de Matos Filho é um especialista em infraestrutura elétrica com ampla experiência em projetos residenciais, comerciais e industriais. Seu compromisso é oferecer soluções seguras, eficientes e organizadas, sempre priorizando a qualidade dos serviços, a satisfação dos clientes e o cumprimento das normas técnicas.</p>
+            <p>Com mais de 20 anos de atuação no setor elétrico, ele fundou a <strong>ALCAAMFAP Elétrica</strong> para levar excelência técnica e atendimento personalizado a cada projeto, independente do porte ou complexidade.</p>
+
+            <div class="about-features">
+              <div class="about-feature"><i class="fas fa-check-circle"></i> Execução dentro das normas</div>
+              <div class="about-feature"><i class="fas fa-check-circle"></i> Materiais de qualidade</div>
+              <div class="about-feature"><i class="fas fa-check-circle"></i> Atendimento ágil</div>
+              <div class="about-feature"><i class="fas fa-check-circle"></i> Orçamento transparente</div>
+            </div>
+
+            <a href="sobre.html" class="btn btn-primary" style="margin-top: 32px;">Conheça mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="section" style="background: var(--white);">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">Serviços</span>
+          <h2>Soluções Elétricas Completas</h2>
+          <p>Oferecemos serviços especializados em instalações elétricas, iluminação, redes e infraestrutura para todos os segmentos.</p>
+        </div>
+
+        <div class="search-box fade-in">
+          <i class="fas fa-search"></i>
+          <input type="text" id="service-search" placeholder="Buscar serviço..." aria-label="Buscar serviço">
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card fade-in">
+            <div class="service-icon"><i class="fas fa-bolt"></i></div>
+            <h3>Instalações Elétricas</h3>
+            <p>Instalações residenciais, comerciais e industriais com total segurança e conformidade técnica.</p>
+            <a href="servicos.html#instalacoes" class="btn btn-primary btn-sm">Saiba Mais</a>
+          </article>
+
+          <article class="service-card fade-in stagger-1">
+            <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
+            <h3>Projetos de Iluminação</h3>
+            <p>Projetos luminotécnicos que combinam eficiência energética, conforto visual e design moderno.</p>
+            <a href="servicos.html#iluminacao" class="btn btn-primary btn-sm">Saiba Mais</a>
+          </article>
+
+          <article class="service-card fade-in stagger-2">
+            <div class="service-icon"><i class="fas fa-network-wired"></i></div>
+            <h3>Rede Estruturada</h3>
+            <p>Cabeamento organizado para redes de dados, telefonia e internet com alta performance.</p>
+            <a href="servicos.html#redes" class="btn btn-primary btn-sm">Saiba Mais</a>
+          </article>
+
+          <article class="service-card fade-in stagger-3">
+            <div class="service-icon"><i class="fas fa-server"></i></div>
+            <h3>Infraestrutura para Redes</h3>
+            <p>Racks, patch panels, organização e rotas para ambientes corporativos e residenciais.</p>
+            <a href="servicos.html#infraestrutura" class="btn btn-primary btn-sm">Saiba Mais</a>
+          </article>
+
+          <article class="service-card fade-in stagger-4">
+            <div class="service-icon"><i class="fas fa-tools"></i></div>
+            <h3>Manutenção Elétrica</h3>
+            <p>Manutenção preventiva e corretiva para garantir a continuidade e segurança elétrica.</p>
+            <a href="servicos.html#manutencao" class="btn btn-primary btn-sm">Saiba Mais</a>
+          </article>
+
+          <article class="service-card fade-in stagger-5">
+            <div class="service-icon"><i class="fas fa-video"></i></div>
+            <h3>Instalação de Câmeras</h3>
+            <p>Sistemas de CFTV com instalação profissional e orientação na escolha de equipamentos.</p>
+            <a href="servicos.html#cftv" class="btn btn-primary btn-sm">Saiba Mais</a>
+          </article>
+
+          <article class="service-card fade-in stagger-6">
+            <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+            <h3>Sistemas CFTV</h3>
+            <p>Monitoramento por câmeras internas e externas com acesso remoto via aplicativo.</p>
+            <a href="servicos.html#cftv" class="btn btn-primary btn-sm">Saiba Mais</a>
+          </article>
+
+          <article class="service-card fade-in">
+            <div class="service-icon"><i class="fas fa-th"></i></div>
+            <h3>Organização de Quadros</h3>
+            <p>Quadros elétricos organizados, identificados e dentro das normas de segurança.</p>
+            <a href="servicos.html#quadros" class="btn btn-primary btn-sm">Saiba Mais</a>
+          </article>
+
+          <article class="service-card fade-in stagger-1">
+            <div class="service-icon"><i class="fas fa-industry"></i></div>
+            <h3>Infraestrutura Industrial</h3>
+            <p>Instalações robustas para máquinas, painéis, eletrocalhas e comandos elétricos.</p>
+            <a href="servicos.html#industrial" class="btn btn-primary btn-sm">Saiba Mais</a>
+          </article>
+
+          <article class="service-card fade-in stagger-2">
+            <div class="service-icon"><i class="fas fa-wrench"></i></div>
+            <h3>Reparos Elétricos</h3>
+            <p>Diagnóstico e reparo rápido de falhas, curtos, quedas de energia e más instalações.</p>
+            <a href="servicos.html#reparos" class="btn btn-primary btn-sm">Saiba Mais</a>
+          </article>
+
+          <article class="service-card fade-in stagger-3">
+            <div class="service-icon"><i class="fas fa-building"></i></div>
+            <h3>Serviços Comerciais</h3>
+            <p>Atendimento a lojas, escritórios, clínicas e outros ambientes comerciais.</p>
+            <a href="servicos.html#comercial" class="btn btn-primary btn-sm">Saiba Mais</a>
+          </article>
+
+          <article class="service-card fade-in stagger-4">
+            <div class="service-icon"><i class="fas fa-home"></i></div>
+            <h3>Serviços Residenciais</h3>
+            <p>Elétrica completa para casas e apartamentos, desde o projeto até a execução.</p>
+            <a href="servicos.html#residencial" class="btn btn-primary btn-sm">Saiba Mais</a>
+          </article>
+        </div>
+
+        <div class="text-center" style="text-align: center; margin-top: 48px;">
+          <a href="servicos.html" class="btn btn-primary">Ver Todos os Serviços</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfólio -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">Portfólio</span>
+          <h2>Projetos Realizados</h2>
+          <p>Conheça alguns dos projetos executados com qualidade e excelência técnica.</p>
+        </div>
+
+        <div class="portfolio-filter fade-in">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="residencial">Residencial</button>
+          <button class="filter-btn" data-filter="comercial">Comercial</button>
+          <button class="filter-btn" data-filter="industrial">Industrial</button>
+          <button class="filter-btn" data-filter="redes">Redes</button>
+          <button class="filter-btn" data-filter="iluminacao">Iluminação</button>
+          <button class="filter-btn" data-filter="infraestrutura">Infraestrutura</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-item fade-in" data-category="residencial">
+            <div class="portfolio-image">
+              <img src="images/projects/project-1.jpg" alt="Residência com instalação elétrica moderna" loading="lazy">
+              <div class="portfolio-overlay">
+                <a href="#" class="btn btn-primary btn-sm portfolio-link" data-title="Casa Residencial Completa" data-desc="Instalação elétrica completa em residência de alto padrão, com iluminação LED e quadro organizado.">Ver Projeto</a>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-category">Residencial</span>
+              <h3>Casa Residencial Completa</h3>
+              <p>Instalação elétrica completa com iluminação LED e quadro organizado.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item fade-in stagger-1" data-category="comercial">
+            <div class="portfolio-image">
+              <img src="images/projects/project-2.jpg" alt="Escritório comercial com infraestrutura elétrica" loading="lazy">
+              <div class="portfolio-overlay">
+                <a href="#" class="btn btn-primary btn-sm portfolio-link" data-title="Escritório Comercial" data-desc="Infraestrutura elétrica e rede estruturada para escritório comercial com 20 pontos de trabalho.">Ver Projeto</a>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-category">Comercial</span>
+              <h3>Escritório Comercial</h3>
+              <p>Infraestrutura elétrica e rede estruturada para escritório moderno.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item fade-in stagger-2" data-category="industrial">
+            <div class="portfolio-image">
+              <img src="images/projects/project-3.jpg" alt="Indústria com painéis elétricos" loading="lazy">
+              <div class="portfolio-overlay">
+                <a href="#" class="btn btn-primary btn-sm portfolio-link" data-title="Infraestrutura Industrial" data-desc="Montagem de painéis e eletrocalhas para indústria com demanda de alta potência.">Ver Projeto</a>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-category">Industrial</span>
+              <h3>Infraestrutura Industrial</h3>
+              <p>Painéis, eletrocalhas e comandos elétricos para indústria.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item fade-in stagger-3" data-category="redes infraestrutura">
+            <div class="portfolio-image">
+              <img src="images/projects/project-4.jpg" alt="Rack de rede organizado" loading="lazy">
+              <div class="portfolio-overlay">
+                <a href="#" class="btn btn-primary btn-sm portfolio-link" data-title="Rack de Rede Estruturada" data-desc="Organização completa de rack com patch panel, switch e roteamento de cabos.">Ver Projeto</a>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-category">Redes</span>
+              <h3>Rack de Rede Estruturada</h3>
+              <p>Rack organizado com patch panel e roteamento de cabos.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item fade-in stagger-4" data-category="iluminacao">
+            <div class="portfolio-image">
+              <img src="images/projects/project-5.jpg" alt="Projeto luminotécnico moderno" loading="lazy">
+              <div class="portfolio-overlay">
+                <a href="#" class="btn btn-primary btn-sm portfolio-link" data-title="Projeto Luminotécnico" data-desc="Projeto de iluminação com LED em ambiente comercial, reduzindo consumo em 40%.">Ver Projeto</a>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-category">Iluminação</span>
+              <h3>Projeto Luminotécnico</h3>
+              <p>Iluminação LED em ambiente comercial com eficiência energética.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-item fade-in stagger-5" data-category="residencial infraestrutura">
+            <div class="portfolio-image">
+              <img src="images/projects/project-6.jpg" alt="Câmeras de segurança residencial" loading="lazy">
+              <div class="portfolio-overlay">
+                <a href="#" class="btn btn-primary btn-sm portfolio-link" data-title="CFTV Residencial" data-desc="Instalação de câmeras de segurança com acesso remoto para residência.">Ver Projeto</a>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-category">Residencial</span>
+              <h3>CFTV Residencial</h3>
+              <p>Sistema de câmeras com acesso remoto para segurança residencial.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center" style="text-align: center; margin-top: 48px;">
+          <a href="portfolio.html" class="btn btn-primary">Ver Portfólio Completo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section id="diferenciais" class="section" style="background: var(--white);">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">Diferenciais</span>
+          <h2>Por Que Escolher a ALCAAMFAP?</h2>
+          <p>Compromisso com a excelência em cada detalhe da execução dos serviços.</p>
+        </div>
+
+        <div class="differentials-grid">
+          <div class="differential-card fade-in">
+            <div class="differential-icon"><i class="fas fa-user-tie"></i></div>
+            <h3>Profissional Qualificado</h3>
+            <p>Mais de 20 anos de experiência técnica no setor elétrico.</p>
+          </div>
+
+          <div class="differential-card fade-in stagger-1">
+            <div class="differential-icon"><i class="fas fa-comments"></i></div>
+            <h3>Atendimento Personalizado</h3>
+            <p>Cada cliente recebe atenção dedicada do início ao fim do projeto.</p>
+          </div>
+
+          <div class="differential-card fade-in stagger-2">
+            <div class="differential-icon"><i class="fas fa-medal"></i></div>
+            <h3>Materiais de Alta Qualidade</h3>
+            <p>Utilização de produtos certificados e de marcas confiáveis.</p>
+          </div>
+
+          <div class="differential-card fade-in stagger-3">
+            <div class="differential-icon"><i class="fas fa-hard-hat"></i></div>
+            <h3>Execução com Segurança</h3>
+            <p>Trabalhos realizados seguindo rigorosamente as normas técnicas.</p>
+          </div>
+
+          <div class="differential-card fade-in stagger-4">
+            <div class="differential-icon"><i class="fas fa-boxes"></i></div>
+            <h3>Organização</h3>
+            <p>Cabeamentos identificados, quadros limpos e acabamento impecável.</p>
+          </div>
+
+          <div class="differential-card fade-in stagger-5">
+            <div class="differential-icon"><i class="fas fa-clock"></i></div>
+            <h3>Pontualidade</h3>
+            <p>Compromisso com prazos e cronogramas definidos.</p>
+          </div>
+
+          <div class="differential-card fade-in stagger-6">
+            <div class="differential-icon"><i class="fas fa-paint-roller"></i></div>
+            <h3>Excelente Acabamento</h3>
+            <p>Atenção aos detalhes para um resultado visual profissional.</p>
+          </div>
+
+          <div class="differential-card fade-in">
+            <div class="differential-icon"><i class="fas fa-tags"></i></div>
+            <h3>Preço Justo</h3>
+            <p>Orçamentos transparentes e competitivos para cada necessidade.</p>
+          </div>
+
+          <div class="differential-card fade-in stagger-1">
+            <div class="differential-icon"><i class="fas fa-handshake"></i></div>
+            <h3>Compromisso com o Cliente</h3>
+            <p>Satisfação e confiança são prioridades em cada atendimento.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="section testimonials-section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag" style="background: rgba(255,255,255,0.2);">Depoimentos</span>
+          <h2>O Que Dizem Nossos Clientes</h2>
+          <p>Experiências reais de quem confiou na ALCAAMFAP Elétrica.</p>
+        </div>
+
+        <div class="testimonials-carousel fade-in">
+          <div class="testimonials-track">
+            <div class="testimonials-slides" id="testimonials-slides">
+              <div class="testimonial-card">
+                <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="testimonial-text">"Excelente profissional. Serviço impecável e entregue dentro do prazo. Recomendo a todos que buscam qualidade e segurança."</p>
+                <div class="testimonial-author">Carlos Alberto</div>
+                <div class="testimonial-role">Residencial</div>
+              </div>
+
+              <div class="testimonial-card">
+                <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="testimonial-text">"Organização, qualidade e muito conhecimento técnico. A rede estruturada do nosso escritório ficou perfeita."</p>
+                <div class="testimonial-author">Mariana Souza</div>
+                <div class="testimonial-role">Comercial</div>
+              </div>
+
+              <div class="testimonial-card">
+                <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="testimonial-text">"Recomendo sem dúvidas. Atendimento excelente, preço justo e muita atenção aos detalhes."</p>
+                <div class="testimonial-author">Roberto Lima</div>
+                <div class="testimonial-role">Industrial</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonials-nav">
+            <button type="button" id="prev-testimonial" aria-label="Depoimento anterior"><i class="fas fa-chevron-left"></i></button>
+            <button type="button" id="next-testimonial" aria-label="Próximo depoimento"><i class="fas fa-chevron-right"></i></button>
+          </div>
+
+          <div class="testimonials-dots" id="testimonials-dots">
+            <button type="button" class="active" aria-label="Depoimento 1"></button>
+            <button type="button" aria-label="Depoimento 2"></button>
+            <button type="button" aria-label="Depoimento 3"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">FAQ</span>
+          <h2>Perguntas Frequentes</h2>
+          <p>Tire suas dúvidas sobre os serviços da ALCAAMFAP Elétrica.</p>
+        </div>
+
+        <div class="faq-list fade-in">
+          <div class="faq-item active">
+            <button type="button" class="faq-question">Você realiza instalações residenciais? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer">
+              <p>Sim. Realizamos instalações elétricas completas para casas e apartamentos, desde o projeto até a execução, com segurança e qualidade.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">Atende empresas? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer">
+              <p>Sim. Atendemos empresas, comércios, escritórios e clínicas com soluções personalizadas em infraestrutura elétrica e redes.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">Trabalha com rede estruturada? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer">
+              <p>Sim. Fazemos cabeamento estruturado para dados, telefonia e internet, com organização e certificação.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">Instala sistemas de câmeras? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer">
+              <p>Sim. Instalamos sistemas de CFTV para residências, comércios e indústrias, com acesso remoto via aplicativo.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">Faz manutenção preventiva? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer">
+              <p>Sim. Oferecemos manutenção preventiva e corretiva para garantir a segurança e a continuidade da energia elétrica.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">Emite orçamento sem compromisso? <i class="fas fa-chevron-down"></i></button>
+            <div class="faq-answer">
+              <p>Sim. O orçamento é totalmente gratuito e sem compromisso. Basta entrar em contato pelo WhatsApp ou telefone.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section" style="background: var(--white);">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">Contato</span>
+          <h2>Entre em Contato</h2>
+          <p>Solicite um orçamento ou tire suas dúvidas. Atendemos Fortaleza e região metropolitana.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card fade-in">
+            <h3><i class="fas fa-address-card"></i> Informações de Contato</h3>
+
+            <div class="contact-info-item">
+              <i class="fas fa-building"></i>
+              <div>
+                <strong>Empresa</strong>
+                <span>ALCAAMFAP Elétrica</span>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <i class="fas fa-user"></i>
+              <div>
+                <strong>Profissional</strong>
+                <span>Adálio Nunes de Matos Filho</span>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <strong>Telefone</strong>
+                <span>(85) 99655-9851</span>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Localização</strong>
+                <span>Fortaleza – Ceará</span>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <i class="fas fa-bullseye"></i>
+              <div>
+                <strong>Área de Atendimento</strong>
+                <span>Residências • Empresas • Comércio • Indústria</span>
+              </div>
+            </div>
+
+            <div class="contact-actions">
+              <a href="https://wa.me/5585996559851" target="_blank" class="btn btn-primary"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a href="tel:+5585996559851" class="btn btn-outline"><i class="fas fa-phone"></i> Ligar Agora</a>
+              <a href="https://maps.google.com/?q=Fortaleza,CE" target="_blank" class="btn btn-outline"><i class="fas fa-map-marker-alt"></i> Ver Localização</a>
+            </div>
+          </div>
+
+          <div class="contact-form fade-in stagger-2">
+            <h3 style="margin-bottom: 24px; color: var(--dark-blue);">Solicitar Orçamento</h3>
+            <div class="form-success" role="alert">
+              <i class="fas fa-check-circle"></i> Mensagem enviada com sucesso! Entraremos em contato em breve.
+            </div>
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome" data-validate required placeholder="Seu nome">
+                <span class="form-error">Informe seu nome completo.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" data-validate required placeholder="seu@email.com">
+                <span class="form-error">Informe um e-mail válido.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" data-validate required placeholder="(85) 99999-9999">
+                <span class="form-error">Informe um telefone válido.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="tipo">Tipo de serviço</label>
+                <select id="tipo" name="tipo" data-validate required>
+                  <option value="">Selecione...</option>
+                  <option value="residencial">Residencial</option>
+                  <option value="comercial">Comercial</option>
+                  <option value="industrial">Industrial</option>
+                  <option value="iluminacao">Iluminação</option>
+                  <option value="rede">Rede Estruturada</option>
+                  <option value="cftv">CFTV / Câmeras</option>
+                  <option value="outro">Outro</option>
+                </select>
+                <span class="form-error">Selecione um tipo de serviço.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" data-validate required placeholder="Descreva o que precisa..."></textarea>
+                <span class="form-error">Descreva sua necessidade.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-shine" style="width: 100%;">
+                <i class="fas fa-paper-plane"></i> Enviar Mensagem
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="container">
+        <h2 class="fade-in">Pronto para tornar seu projeto elétrico mais seguro?</h2>
+        <p class="fade-in stagger-1">Solicite um orçamento gratuito e descubra como a ALCAAMFAP pode ajudar.</p>
+        <a href="https://wa.me/5585996559851" target="_blank" class="btn fade-in stagger-2"><i class="fab fa-whatsapp"></i> Falar no WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo.svg" alt="ALCAAMFAP Elétrica">
+          <p>Infraestrutura elétrica com qualidade, segurança e excelência profissional para residências, empresas e indústrias.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5585996559851" aria-label="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Menu Rápido</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Início</a></li>
+            <li><a href="sobre.html"><i class="fas fa-chevron-right"></i> Sobre</a></li>
+            <li><a href="servicos.html"><i class="fas fa-chevron-right"></i> Serviços</a></li>
+            <li><a href="portfolio.html"><i class="fas fa-chevron-right"></i> Portfólio</a></li>
+            <li><a href="contato.html"><i class="fas fa-chevron-right"></i> Contato</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Serviços</h4>
+          <ul class="footer-links">
+            <li><a href="servicos.html"><i class="fas fa-chevron-right"></i> Instalações Elétricas</a></li>
+            <li><a href="servicos.html"><i class="fas fa-chevron-right"></i> Iluminação</a></li>
+            <li><a href="servicos.html"><i class="fas fa-chevron-right"></i> Rede Estruturada</a></li>
+            <li><a href="servicos.html"><i class="fas fa-chevron-right"></i> CFTV</a></li>
+            <li><a href="servicos.html"><i class="fas fa-chevron-right"></i> Manutenção</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contato</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-user"></i> Adálio Nunes de Matos Filho</li>
+            <li><i class="fas fa-phone"></i> (85) 99655-9851</li>
+            <li><i class="fas fa-map-marker-alt"></i> Fortaleza – Ceará</li>
+            <li><i class="fas fa-envelope"></i> contato@alcaamfap-eletrica.com.br</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="current-year">2026</span> ALCAAMFAP Elétrica – Todos os direitos reservados.</p>
+        <p>Desenvolvido com excelência para sua segurança.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botões flutuantes -->
+  <div class="floating-buttons">
+    <a href="tel:+5585996559851" class="floating-btn phone" aria-label="Ligar agora">
+      <i class="fas fa-phone"></i>
+      <span>Ligar Agora</span>
+    </a>
+    <a href="https://wa.me/5585996559851" target="_blank" class="floating-btn whatsapp" aria-label="Falar no WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+      <span>WhatsApp</span>
+    </a>
+    <button type="button" id="back-to-top" class="floating-btn top" aria-label="Voltar ao topo">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/darkmode.js"></script>
+  <script src="js/counter.js"></script>
+  <script src="js/portfolio.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- Carrossel de depoimentos -->
+  <script>
+    (function() {
+      const track = document.getElementById('testimonials-slides');
+      const prevBtn = document.getElementById('prev-testimonial');
+      const nextBtn = document.getElementById('next-testimonial');
+      const dots = document.querySelectorAll('#testimonials-dots button');
+      if (!track || !prevBtn || !nextBtn) return;
+
+      let current = 0;
+      const total = track.children.length;
+
+      function update() {
+        track.style.transform = 'translateX(-' + (current * 100) + '%)';
+        dots.forEach((dot, index) => {
+          dot.classList.toggle('active', index === current);
+        });
+      }
+
+      nextBtn.addEventListener('click', function() {
+        current = (current + 1) % total;
+        update();
+      });
+
+      prevBtn.addEventListener('click', function() {
+        current = (current - 1 + total) % total;
+        update();
+      });
+
+      dots.forEach((dot, index) => {
+        dot.addEventListener('click', function() {
+          current = index;
+          update();
+        });
+      });
+
+      setInterval(function() {
+        current = (current + 1) % total;
+        update();
+      }, 6000);
+    })();
+  </script>
+</body>
+</html>
