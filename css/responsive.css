@@ -1,0 +1,330 @@
+/* ==========================================
+   ALCAAMFAP Elétrica - Estilos Responsivos
+   ========================================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    text-align: center;
+  }
+
+  .hero-text p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-image {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .hero-image-wrapper img {
+    height: 420px;
+  }
+
+  .hero-badge {
+    left: 20px;
+  }
+
+  .about-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .about-image {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .section {
+    padding: 70px 0;
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+  }
+
+  .btn-menu {
+    display: flex;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 320px;
+    height: 100vh;
+    background: var(--dark-blue);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 32px 40px;
+    gap: 8px;
+    transition: right 0.4s ease;
+    z-index: 1001;
+    box-shadow: -10px 0 40px rgba(0, 0, 0, 0.3);
+  }
+
+  .nav.active {
+    right: 0;
+  }
+
+  .nav-link {
+    color: var(--white) !important;
+    width: 100%;
+    padding: 14px 0;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-link:hover,
+  .nav-link.active {
+    background: transparent;
+    color: var(--light-blue) !important;
+  }
+
+  .header-actions .btn {
+    display: none;
+  }
+
+  .theme-toggle {
+    border-color: rgba(255, 255, 255, 0.3);
+    color: var(--white);
+  }
+
+  .header.scrolled .theme-toggle {
+    border-color: rgba(255, 255, 255, 0.3);
+    color: var(--white);
+  }
+
+  .header.scrolled .btn-menu span {
+    background: var(--text-dark);
+  }
+
+  .menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition);
+  }
+
+  .menu-overlay.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .hero {
+    padding-top: 90px;
+  }
+
+  .hero-text h1 {
+    font-size: clamp(1.8rem, 6vw, 2.5rem);
+  }
+
+  .hero-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-image-wrapper img {
+    height: 360px;
+  }
+
+  .hero-badge {
+    left: 10px;
+    bottom: 10px;
+    padding: 12px 18px;
+  }
+
+  .hero-badge strong {
+    font-size: 1.1rem;
+  }
+
+  .about-features {
+    grid-template-columns: 1fr;
+  }
+
+  .services-grid,
+  .portfolio-grid,
+  .differentials-grid,
+  .about-values {
+    grid-template-columns: 1fr;
+  }
+
+  .services-filter,
+  .portfolio-filter {
+    gap: 8px;
+  }
+
+  .filter-btn {
+    padding: 8px 16px;
+    font-size: 0.8rem;
+  }
+
+  .testimonial-card {
+    padding: 28px 20px;
+  }
+
+  .testimonial-text {
+    font-size: 1.05rem;
+  }
+
+  .contact-card {
+    padding: 28px;
+  }
+
+  .contact-form {
+    padding: 28px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .footer-brand img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .footer-links a {
+    justify-content: center;
+  }
+
+  .footer-contact li {
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .floating-buttons {
+    bottom: 16px;
+    right: 16px;
+  }
+
+  .floating-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .floating-btn span {
+    display: none;
+  }
+
+  .page-hero {
+    min-height: 40vh;
+  }
+}
+
+/* Pequenos dispositivos */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .stat-card {
+    padding: 16px;
+  }
+
+  .stat-number {
+    font-size: 1.5rem;
+  }
+
+  .service-card,
+  .differential-card,
+  .portfolio-item {
+    padding: 24px 20px;
+  }
+
+  .contact-card,
+  .contact-form {
+    padding: 22px;
+  }
+
+  .contact-info-item {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .contact-info-item i {
+    margin-top: 0;
+  }
+
+  .testimonials-nav button {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+/* Ajustes de altura */
+@media (max-height: 700px) {
+  .hero {
+    min-height: auto;
+    padding-bottom: 60px;
+  }
+
+  .hero-image-wrapper img {
+    height: 300px;
+  }
+}
+
+/* Acessibilidade - reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Telas grandes */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
+  }
+
+  .hero-text h1 {
+    font-size: 4rem;
+  }
+}
